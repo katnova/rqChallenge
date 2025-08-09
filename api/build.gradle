@@ -3,6 +3,9 @@ plugins {
 }
 
 dependencies {
+    implementation 'org.cache2k:cache2k-spring:2.6.1.Final'
+    implementation 'org.cache2k:cache2k-api:2.6.1.Final'
+    implementation 'org.cache2k:cache2k-core:2.6.1.Final'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
